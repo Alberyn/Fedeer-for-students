@@ -76,13 +76,13 @@ if (btnVal == 0)
   // устанавливаем направление мотора «M2» в одну сторону
   digitalWrite(DIR_2, HIGH);
   // включаем второй мотор на максимальной скорости
-  analogWrite(SPEED_2, 80);
+  analogWrite(SPEED_2, 100);
      // устанавливаем направление мотора «M1» в одну сторону
   digitalWrite(DIR_1, HIGH);
   // включаем мотор на максимальной скорости
-  analogWrite(SPEED_1, 80);
+  analogWrite(SPEED_1, 100);
   // ждём одну секунду
-  delay(900);
+  delay(700);
 
   analogWrite(SPEED_1, 0);
   analogWrite(SPEED_2, 0);
@@ -91,13 +91,13 @@ if (btnVal == 0)
  // устанавливаем направление мотора «M2» в одну сторону
   digitalWrite(DIR_2, LOW);
   // включаем второй мотор на максимальной скорости
-  analogWrite(SPEED_2, 80);
+  analogWrite(SPEED_2, 100);
      // устанавливаем направление мотора «M1» в одну сторону
   digitalWrite(DIR_1, LOW);
   // включаем мотор на максимальной скорости
-  analogWrite(SPEED_1, 80);
+  analogWrite(SPEED_1, 100);
   // ждём одну секунду
-  delay(900);
+  delay(700);
 
    analogWrite(SPEED_1, 0);
   analogWrite(SPEED_2, 0);
@@ -114,7 +114,6 @@ if (btnVal == 0)
  
  
 }
-
 ```
 
 
